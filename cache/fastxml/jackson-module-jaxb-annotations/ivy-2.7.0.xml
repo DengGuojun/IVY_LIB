@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="fastxml" module="jackson-module-jaxb-annotations" revision="2.7.0" status="release" publication="20160822102303"/>
+</ivy-module>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="apache"
+		module="log4j-slf4j-impl"
+		revision="2.4.1"
+		status="release"/>
+</ivy-module>

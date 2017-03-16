@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="codehaus" module="woodstox-core-asl" revision="4.4.1" status="release" publication="20160822102303"/>
+</ivy-module>

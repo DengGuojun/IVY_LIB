@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="danga" module="java-memcached" revision="2.6.6" status="release" publication="20160822102305"/>
+</ivy-module>

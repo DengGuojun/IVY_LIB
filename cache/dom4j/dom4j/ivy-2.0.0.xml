@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="1.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="dom4j" module="dom4j" revision="2.0.0" status="release" publication="20160822102305"/>
+</ivy-module>

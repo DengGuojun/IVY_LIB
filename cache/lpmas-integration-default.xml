@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="lpmas"
+		module="integration"
+		revision="working@KFB-DT-003"
+		conf="default"
+		confs="default"
+		date="20170220160653"/>
+	<dependencies>
+		<module organisation="lpmas" name="lpmas-framework">
+			<revision name="1.0.1" status="release" pubdate="20160822102302" resolver="repository" artresolver="repository" downloaded="false" searched="false" default="false" conf="default, *" position="15">
+				<metadata-artifact status="no" details="" size="242" time="0" location="E:\Workplace\IVY_LIB\cache\lpmas\lpmas-framework\ivy-1.0.1.xml" searched="false" original-local-location="E:\Workplace\IVY_LIB\repository\lpmas\lpmas-framework\ivys\ivy-1.0.1.xml" origin-is-local="true" origin-location="E:\Workplace\IVY_LIB\repository\lpmas\lpmas-framework\ivys\ivy-1.0.1.xml"/>
+				<caller organisation="lpmas" name="integration" conf="default" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="working@KFB-DT-003"/>
+				<artifacts>
+					<artifact name="lpmas-framework" type="jar" ext="jar" status="no" details="" size="206163" time="0" location="E:\Workplace\IVY_LIB\cache\lpmas\lpmas-framework\jars\lpmas-framework-1.0.1.jar">
+						<origin-location is-local="true" location="E:\Workplace\IVY_LIB\repository\lpmas\lpmas-framework\jars\lpmas-framework-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="codehaus" name="stax2-api">
+			<revision name="4.0.0" status="release" pubdate="20160822102303" resolver="repository" artresolver="repository" downloaded="false" searched="false" default="false" conf="default, *" position="14">
+				<metadata-artifact status="no" details="" size="239" time="0" location="E:\Workplace\IVY_LIB\cache\codehaus\stax2-api\ivy-4.0.0.xml" searched="false" original-local-location="E:\Workplace\IVY_LIB\repository\codehaus\stax2-api\ivys\ivy-4.0.0.xml" origin-is-local="true" origin-location="E:\Workplace\IVY_LIB\repository\codehaus\stax2-api\ivys\ivy-4.0.0.xml"/>
+				<caller organisation="lpmas" name="integration" conf="default" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="working@KFB-DT-003"/>
+				<artifacts>
+					<artifact name="stax2-api" type="jar" ext="jar" status="no" details="" size="162924" time="0" location="E:\Workplace\IVY_LIB\cache\codehaus\stax2-api\jars\stax2-api-4.0.0.jar">
+						<origin-location is-local="true" location="E:\Workplace\IVY_LIB\repository\codehaus\stax2-api\jars\stax2-api-4.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="fastxml" name="jackson-module-jaxb-annotations">
+			<revision name="2.7.0" status="release" pubdate="20160822102303" resolver="repository" artresolver="repository" downloaded="false" searched="false" default="false" conf="default, *" position="13">
+				<metadata-artifact status="no" details="" size="260" time="0" location="E:\Workplace\IVY_LIB\cache\fastxml\jackson-module-jaxb-annotations\ivy-2.7.0.xml" searched="false" original-local-location="E:\Workplace\IVY_LIB\repository\fastxml\jackson-module-jaxb-annotations\ivys\ivy-2.7.0.xml" origin-is-local="true" origin-location="E:\Workplace\IVY_LIB\repository\fastxml\jackson-module-jaxb-annotations\ivys\ivy-2.7.0.xml"/>
+				<caller organisation="lpmas" name="integration" conf="default" rev="2.7.0" rev-constraint-default="2.7.0" rev-constraint-dynamic="2.7.0" callerrev="working@KFB-DT-003"/>
+				<artifacts>
+					<artifact name="jackson-module-jaxb-annotations" type="jar" ext="jar" status="no" details="" size="34471" time="0" location="E:\Workplace\IVY_LIB\cache\fastxml\jackson-module-jaxb-annotations\jars\jackson-module-jaxb-annotations-2.7.0.jar">
+						<origin-location is-local="true" location="E:\Workplace\IVY_LIB\repository\fastxml\jackson-module-jaxb-annotations\jars\jackson-module-jaxb-annotations-2.7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="fastxml" name="jackson-dataformat-xml">
+			<revision name="2.7.0" status="release" pubdate="20160822102303" resolver="repository" artresolver="repository" downloaded="false" searched="false" default="false" conf="default, *" position="12">
+				<metadata-artifact status="no" details="" size="251" time="0" location="E:\Workplace\IVY_LIB\cache\fastxml\jackson-dataformat-xml\ivy-2.7.0.xml" searched="false" original-local-location="E:\Workplace\IVY_LIB\repository\fastxml\jackson-dataformat-xml\ivys\ivy-2.7.0.xml" origin-is-local="true" origin-location="E:\Workplace\IVY_LIB\repository\fastxml\jackson-dataformat-xml\ivys\ivy-2.7.0.xml"/>
+				<caller organisation="lpmas" name="integration" conf="default" rev="2.7.0" rev-constraint-default="2.7.0" rev-constraint-dynamic="2.7.0" callerrev="working@KFB-DT-003"/>
+				<artifacts>
+					<artifact name="jackson-dataformat-xml" type="jar" ext="jar" status="no" details="" size="94687" time="0" location="E:\Workplace\IVY_LIB\cache\fastxml\jackson-dataformat-xml\jars\jackson-dataformat-xml-2.7.0.jar">
+						<origin-location is-local="true" location="E:\Workplace\IVY_LIB\repository\fastxml\jackson-dataformat-xml\jars\jackson-dataformat-xml-2.7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="fastxml" name="jackson-databind">
+			<revision name="2.7.0" status="release" pubdate="20160822102303" resolver="repository" artresolver="repository" downloaded="false" searched="false" default="false" conf="default, *" position="11">
+				<metadata-artifact status="no" details="" size="245" time="0" location="E:\Workplace\IVY_LIB\cache\fastxml\jackson-databind\ivy-2.7.0.xml" searched="false" original-local-location="E:\Workplace\IVY_LIB\repository\fastxml\jackson-databind\ivys\ivy-2.7.0.xml" origin-is-local="true" origin-location="E:\Workplace\IVY_LIB\repository\fastxml\jackson-databind\ivys\ivy-2.7.0.xml"/>
+				<caller organisation="lpmas" name="integration" conf="default" rev="2.7.0" rev-constraint-default="2.7.0" rev-constraint-dynamic="2.7.0" callerrev="working@KFB-DT-003"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="jar" ext="jar" status="no" details="" size="1198501" time="0" location="E:\Workplace\IVY_LIB\cache\fastxml\jackson-databind\jars\jackson-databind-2.7.0.jar">
+						<origin-location is-local="true" location="E:\Workplace\IVY_LIB\repository\fastxml\jackson-databind\jars\jackson-databind-2.7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="fastxml" name="jackson-annotations">
+			<revision name="2.7.0" status="release" pubdate="20160822102303" resolver="repository" artresolver="repository" downloaded="false" searched="false" default="false" conf="default, *" position="10">
+				<metadata-artifact status="no" details="" size="248" time="0" location="E:\Workplace\IVY_LIB\cache\fastxml\jackson-annotations\ivy-2.7.0.xml" searched="false" original-local-location="E:\Workplace\IVY_LIB\repository\fastxml\jackson-annotations\ivys\ivy-2.7.0.xml" origin-is-local="true" origin-location="E:\Workplace\IVY_LIB\repository\fastxml\jackson-annotations\ivys\ivy-2.7.0.xml"/>
+				<caller organisation="lpmas" name="integration" conf="default" rev="2.7.0" rev-constraint-default="2.7.0" rev-constraint-dynamic="2.7.0" callerrev="working@KFB-DT-003"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="jar" ext="jar" status="no" details="" size="50894" time="0" location="E:\Workplace\IVY_LIB\cache\fastxml\jackson-annotations\jars\jackson-annotations-2.7.0.jar">
+						<origin-location is-local="true" location="E:\Workplace\IVY_LIB\repository\fastxml\jackson-annotations\jars\jackson-annotations-2.7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="fastxml" name="jackson-core">
+			<revision name="2.7.0" status="release" pubdate="20160822102303" resolver="repository" artresolver="repository" downloaded="false" searched="false" default="false" conf="default, *" position="9">
+				<metadata-artifact status="no" details="" size="241" time="0" location="E:\Workplace\IVY_LIB\cache\fastxml\jackson-core\ivy-2.7.0.xml" searched="false" original-local-location="E:\Workplace\IVY_LIB\repository\fastxml\jackson-core\ivys\ivy-2.7.0.xml" origin-is-local="true" origin-location="E:\Workplace\IVY_LIB\repository\fastxml\jackson-core\ivys\ivy-2.7.0.xml"/>
+				<caller organisation="lpmas" name="integration" conf="default" rev="2.7.0" rev-constraint-default="2.7.0" rev-constraint-dynamic="2.7.0" callerrev="working@KFB-DT-003"/>
+				<artifacts>
+					<artifact name="jackson-core" type="jar" ext="jar" status="no" details="" size="252084" time="0" location="E:\Workplace\IVY_LIB\cache\fastxml\jackson-core\jars\jackson-core-2.7.0.jar">
+						<origin-location is-local="true" location="E:\Workplace\IVY_LIB\repository\fastxml\jackson-core\jars\jackson-core-2.7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dom4j" name="dom4j">
+			<revision name="2.0.0" status="release" pubdate="20160822102305" resolver="repository" artresolver="repository" downloaded="false" searched="false" default="false" conf="default, *" position="8">
+				<metadata-artifact status="no" details="" size="232" time="0" location="E:\Workplace\IVY_LIB\cache\dom4j\dom4j\ivy-2.0.0.xml" searched="false" original-local-location="E:\Workplace\IVY_LIB\repository\dom4j\dom4j\ivys\ivy-2.0.0.xml" origin-is-local="true" origin-location="E:\Workplace\IVY_LIB\repository\dom4j\dom4j\ivys\ivy-2.0.0.xml"/>
+				<caller organisation="lpmas" name="integration" conf="default" rev="2.0.0" rev-constraint-default="2.0.0" rev-constraint-dynamic="2.0.0" callerrev="working@KFB-DT-003"/>
+				<artifacts>
+					<artifact name="dom4j" type="jar" ext="jar" status="no" details="" size="312322" time="0" location="E:\Workplace\IVY_LIB\cache\dom4j\dom4j\jars\dom4j-2.0.0.jar">
+						<origin-location is-local="true" location="E:\Workplace\IVY_LIB\repository\dom4j\dom4j\jars\dom4j-2.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="slf4j" name="slf4j-api">
+			<revision name="1.7.12" status="release" pubdate="20160822102303" resolver="repository" artresolver="repository" downloaded="false" searched="false" default="false" conf="default, *" position="7">
+				<metadata-artifact status="no" details="" size="237" time="0" location="E:\Workplace\IVY_LIB\cache\slf4j\slf4j-api\ivy-1.7.12.xml" searched="false" original-local-location="E:\Workplace\IVY_LIB\repository\slf4j\slf4j-api\ivys\ivy-1.7.12.xml" origin-is-local="true" origin-location="E:\Workplace\IVY_LIB\repository\slf4j\slf4j-api\ivys\ivy-1.7.12.xml"/>
+				<caller organisation="lpmas" name="integration" conf="default" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="working@KFB-DT-003"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="32127" time="0" location="E:\Workplace\IVY_LIB\cache\slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar">
+						<origin-location is-local="true" location="E:\Workplace\IVY_LIB\repository\slf4j\slf4j-api\jars\slf4j-api-1.7.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="log4j-slf4j-impl">
+			<revision name="2.4.1" status="release" pubdate="20160822102301" resolver="repository" artresolver="repository" downloaded="false" searched="false" default="false" conf="default, *" position="6">
+				<metadata-artifact status="no" details="" size="244" time="0" location="E:\Workplace\IVY_LIB\cache\apache\log4j-slf4j-impl\ivy-2.4.1.xml" searched="false" original-local-location="E:\Workplace\IVY_LIB\repository\apache\log4j-slf4j-impl\ivys\ivy-2.4.1.xml" origin-is-local="true" origin-location="E:\Workplace\IVY_LIB\repository\apache\log4j-slf4j-impl\ivys\ivy-2.4.1.xml"/>
+				<caller organisation="lpmas" name="integration" conf="default" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="working@KFB-DT-003"/>
+				<artifacts>
+					<artifact name="log4j-slf4j-impl" type="jar" ext="jar" status="no" details="" size="22935" time="0" location="E:\Workplace\IVY_LIB\cache\apache\log4j-slf4j-impl\jars\log4j-slf4j-impl-2.4.1.jar">
+						<origin-location is-local="true" location="E:\Workplace\IVY_LIB\repository\apache\log4j-slf4j-impl\jars\log4j-slf4j-impl-2.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="log4j-core">
+			<revision name="2.4.1" status="release" pubdate="20160822102301" resolver="repository" artresolver="repository" downloaded="false" searched="false" default="false" conf="default, *" position="5">
+				<metadata-artifact status="no" details="" size="238" time="0" location="E:\Workplace\IVY_LIB\cache\apache\log4j-core\ivy-2.4.1.xml" searched="false" original-local-location="E:\Workplace\IVY_LIB\repository\apache\log4j-core\ivys\ivy-2.4.1.xml" origin-is-local="true" origin-location="E:\Workplace\IVY_LIB\repository\apache\log4j-core\ivys\ivy-2.4.1.xml"/>
+				<caller organisation="lpmas" name="integration" conf="default" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="working@KFB-DT-003"/>
+				<artifacts>
+					<artifact name="log4j-core" type="jar" ext="jar" status="no" details="" size="991033" time="0" location="E:\Workplace\IVY_LIB\cache\apache\log4j-core\jars\log4j-core-2.4.1.jar">
+						<origin-location is-local="true" location="E:\Workplace\IVY_LIB\repository\apache\log4j-core\jars\log4j-core-2.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="log4j-api">
+			<revision name="2.4.1" status="release" pubdate="20160822102300" resolver="repository" artresolver="repository" downloaded="false" searched="false" default="false" conf="default, *" position="4">
+				<metadata-artifact status="no" details="" size="237" time="0" location="E:\Workplace\IVY_LIB\cache\apache\log4j-api\ivy-2.4.1.xml" searched="false" original-local-location="E:\Workplace\IVY_LIB\repository\apache\log4j-api\ivys\ivy-2.4.1.xml" origin-is-local="true" origin-location="E:\Workplace\IVY_LIB\repository\apache\log4j-api\ivys\ivy-2.4.1.xml"/>
+				<caller organisation="lpmas" name="integration" conf="default" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="working@KFB-DT-003"/>
+				<artifacts>
+					<artifact name="log4j-api" type="jar" ext="jar" status="no" details="" size="143213" time="0" location="E:\Workplace\IVY_LIB\cache\apache\log4j-api\jars\log4j-api-2.4.1.jar">
+						<origin-location is-local="true" location="E:\Workplace\IVY_LIB\repository\apache\log4j-api\jars\log4j-api-2.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="httpmime">
+			<revision name="4.4.1" status="release" pubdate="20160822102259" resolver="repository" artresolver="repository" downloaded="false" searched="false" default="false" conf="default, *" position="3">
+				<metadata-artifact status="no" details="" size="236" time="0" location="E:\Workplace\IVY_LIB\cache\apache\httpmime\ivy-4.4.1.xml" searched="false" original-local-location="E:\Workplace\IVY_LIB\repository\apache\httpmime\ivys\ivy-4.4.1.xml" origin-is-local="true" origin-location="E:\Workplace\IVY_LIB\repository\apache\httpmime\ivys\ivy-4.4.1.xml"/>
+				<caller organisation="lpmas" name="integration" conf="default" rev="4.4.1" rev-constraint-default="4.4.1" rev-constraint-dynamic="4.4.1" callerrev="working@KFB-DT-003"/>
+				<artifacts>
+					<artifact name="httpmime" type="jar" ext="jar" status="no" details="" size="40631" time="0" location="E:\Workplace\IVY_LIB\cache\apache\httpmime\jars\httpmime-4.4.1.jar">
+						<origin-location is-local="true" location="E:\Workplace\IVY_LIB\repository\apache\httpmime\jars\httpmime-4.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="httpcore">
+			<revision name="4.4.4" status="release" pubdate="20160822102259" resolver="repository" artresolver="repository" downloaded="false" searched="false" default="false" conf="default, *" position="2">
+				<metadata-artifact status="no" details="" size="236" time="0" location="E:\Workplace\IVY_LIB\cache\apache\httpcore\ivy-4.4.4.xml" searched="false" original-local-location="E:\Workplace\IVY_LIB\repository\apache\httpcore\ivys\ivy-4.4.4.xml" origin-is-local="true" origin-location="E:\Workplace\IVY_LIB\repository\apache\httpcore\ivys\ivy-4.4.4.xml"/>
+				<caller organisation="lpmas" name="integration" conf="default" rev="4.4.4" rev-constraint-default="4.4.4" rev-constraint-dynamic="4.4.4" callerrev="working@KFB-DT-003"/>
+				<artifacts>
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="326724" time="0" location="E:\Workplace\IVY_LIB\cache\apache\httpcore\jars\httpcore-4.4.4.jar">
+						<origin-location is-local="true" location="E:\Workplace\IVY_LIB\repository\apache\httpcore\jars\httpcore-4.4.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="httpclient">
+			<revision name="4.5.1" status="release" pubdate="20160822102259" resolver="repository" artresolver="repository" downloaded="false" searched="false" default="false" conf="default, *" position="1">
+				<metadata-artifact status="no" details="" size="238" time="0" location="E:\Workplace\IVY_LIB\cache\apache\httpclient\ivy-4.5.1.xml" searched="false" original-local-location="E:\Workplace\IVY_LIB\repository\apache\httpclient\ivys\ivy-4.5.1.xml" origin-is-local="true" origin-location="E:\Workplace\IVY_LIB\repository\apache\httpclient\ivys\ivy-4.5.1.xml"/>
+				<caller organisation="lpmas" name="integration" conf="default" rev="4.5.1" rev-constraint-default="4.5.1" rev-constraint-dynamic="4.5.1" callerrev="working@KFB-DT-003"/>
+				<artifacts>
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="732765" time="0" location="E:\Workplace\IVY_LIB\cache\apache\httpclient\jars\httpclient-4.5.1.jar">
+						<origin-location is-local="true" location="E:\Workplace\IVY_LIB\repository\apache\httpclient\jars\httpclient-4.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="apache" name="commons-logging">
+			<revision name="1.2" status="release" pubdate="20160822102300" resolver="repository" artresolver="repository" downloaded="false" searched="false" default="false" conf="default, *" position="0">
+				<metadata-artifact status="no" details="" size="241" time="0" location="E:\Workplace\IVY_LIB\cache\apache\commons-logging\ivy-1.2.xml" searched="false" original-local-location="E:\Workplace\IVY_LIB\repository\apache\commons-logging\ivys\ivy-1.2.xml" origin-is-local="true" origin-location="E:\Workplace\IVY_LIB\repository\apache\commons-logging\ivys\ivy-1.2.xml"/>
+				<caller organisation="lpmas" name="integration" conf="default" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="working@KFB-DT-003"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="61829" time="0" location="E:\Workplace\IVY_LIB\cache\apache\commons-logging\jars\commons-logging-1.2.jar">
+						<origin-location is-local="true" location="E:\Workplace\IVY_LIB\repository\apache\commons-logging\jars\commons-logging-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
